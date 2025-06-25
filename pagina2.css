@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 1.5pc;
+    font-weight: 100;
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-image: linear-gradient(to right, #2d7efb, #1e3bb8);
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important
+;
+        flex-basis: auto;
+        flex-direction: row-reverse;
+    }
+}
+.link{
+display: block;
+    padding: 0.5rem 0;
+    margin: 5px;
+    font-size: 1.5pc;
+    font-weight: 100;
+    color: rgb(13, 110, 253);
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.link:hover{
+    background-color:#2d7efb;
+    color: white;
+    border: 2px solid white;
+}
+
+.button-center{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    background-color: #2d7efb;
+    border-radius: 15px;
+    border: 0px solid;
+    color: white;
+}
+
+.button-center:hover{
+    background-color: #1e3bb8;
+    color: white;
+    border: 2px solid white;
+}
+#botao_envio{
+   text-decoration: none;
+    color: white;
+    background-color: #2d7efb;
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+    width: 10pc;
+    margin: 0 auto;
+}
+#botao_envio:hover{
+    background-color: #1e3bb8;
+    color: white;
+    border: 2px solid white;
+}
+.formulario{
+       margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    display: block;
+}
